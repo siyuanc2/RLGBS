@@ -136,7 +136,7 @@ python evaluate_batch.py --methods all --output results/
 
 **Available methods:**
 - `random`: Random action baseline
-- `greedy`: Greedy search baseline  
+- `greedy`: Greedy search baseline (equivalent to beam search with 1 beam)
 - `rl_beam_search`: RL model with beam search (1-256 beams)
 - `all`: Run all methods
 

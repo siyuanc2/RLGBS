@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 siyuanc2
+Copyright (c) 2024 Siyuan Chen(siyuanc2@illinois.edu)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Note: Files in the hfgen/ directory are derived from the HuggingFace Transformers 
+project (https://github.com/huggingface/transformers) and are licensed under 
+the Apache License, Version 2.0. See LICENSE-APACHE for details.

@@ -1,3 +1,14 @@
+# Ignore all files in the data directory
+eval/
+output/
+
+# Ignore legacy files
+cyd_batch_entrypoint.py
+cyd_entrypoint.py
+cyd_naive_baselines.py
+cyd_random_entrypoint.py
+CLAUDE.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

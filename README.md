@@ -7,12 +7,13 @@ This repository contains the supplementary materials and source code for the pap
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{PLACEHOLDER_2025,
-  title={RLGBS: Reinforcement Learning-Guided Beam Search for process optimization in a paper machine dryer section},
-  author={PLACEHOLDER},
-  journal={PLACEHOLDER JOURNAL},
-  year={2025},
-  doi={PLACEHOLDER DOI}
+@article{CHEN2025104351,
+  title = {RLGBS: Reinforcement Learning-Guided Beam Search for Process Optimization in a Paper Machine Dryer Section},
+  journal = {Computers in Industry},
+  year = {2025},
+  issn = {0166-3615},
+  doi = {10.1016/j.compind.2025.104351},
+  author = {Chen, Siyuan and Asar, Munevver Elif and Yagoobi, Jamal and Shao, Chenhui}
 }
 ```
 
@@ -49,7 +50,6 @@ Download the supplementary data files from the latest release:
 
 **Ramdisk data files** (`rlgbs-ramdisk-data.tar.gz`):
 Extract to `/mnt/ramdisk/`:
-- `F_1920000.mat`: Pre-calculated IR view factor data
 - `baseline_response_surface_v3_2.npy`: Baseline response surface (default parameter range)
 - `baseline_response_surface_v3_wide_2.npy`: Baseline response surface (extended parameter range)
 
@@ -96,8 +96,8 @@ The following sections describe how to reproduce the experimental results report
 
 Before running evaluations, configure the parameter range in `definitions.py`:
 
-- Set `CYD_WIDE_DBMC_RANGE = False` for default initial condition grid ($\textrm{DBMC} \in [0.996, 1.196]$)
-- Set `CYD_WIDE_DBMC_RANGE = True` for extended initial condition grid ($\textrm{DBMC} \in [0.9, 1.5]$)
+- Set `CYD_WIDE_DBMC_RANGE = False` for default initial condition grid ($\textrm{DBMC}_{p,init} \in [0.996, 1.196]$)
+- Set `CYD_WIDE_DBMC_RANGE = True` for extended initial condition grid ($\textrm{DBMC}_{p,init} \in [0.9, 1.5]$)
 
 ### Evaluation Scripts
 
